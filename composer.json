@@ -1,0 +1,38 @@
+{
+    "name": "pcabreus-utils/template-processor",
+    "type": "library",
+    "description": "Get some extra utilities to the PhpWord library",
+    "keywords": [
+        "word",
+        "php-word",
+        "positibe",
+        "positibelabs"
+    ],
+    "homepage": "https://github.com/pcabreus/TemplateProcessor",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Pedro Carlos Abreu Jiménez",
+            "email": "pcabreus@gmail.com",
+            "homepage": "https://github.com/pcabreus"
+        },
+        {
+            "name": "PositibeLabs",
+            "homepage": "http://www.positibelabs.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "~0.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pcabreus\\Utils\\PhpWord\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
